@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ToolShop Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ToolShop Functional Tests(failed)">
+    <classes>
+      <class name="testPackage.EndToEndTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUpEndToEnd"/>
+          <include name="testEndToEndHappyFlow"/>
+          <include name="testCheckoutWithMissingRequiredField"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testPackage.EndToEndTest -->
+      <class name="testPackage.ProductTest">
+        <methods>
+          <include name="testQuantityAdjustment"/>
+          <include name="tearDown"/>
+          <include name="testZeroQuantityNegative"/>
+          <include name="selectProduct"/>
+          <include name="setup"/>
+          <include name="testAddToCart"/>
+        </methods>
+      </class> <!-- testPackage.ProductTest -->
+      <class name="testPackage.CartandPaymentTest">
+        <methods>
+          <include name="testSignedInCheckoutWithCreditCard"/>
+          <include name="tearDown"/>
+          <include name="initializePages"/>
+          <include name="testGuestCheckoutWithBankTransfer"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testPackage.CartandPaymentTest -->
+    </classes>
+  </test> <!-- ToolShop Functional Tests(failed) -->
+</suite> <!-- Failed suite [ToolShop Test Suite] -->

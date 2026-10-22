@@ -1,0 +1,1438 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-ToolShop_Test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">ToolShop Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-ToolShop_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\nisha\eclipse-workspace\ToolShopDemo\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-ToolShop_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-ToolShop_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-ToolShop_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-ToolShop_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-ToolShop_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-ToolShop_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">34 methods,   34 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ToolShop_Test_Suite" class="hide-methods passed suite-ToolShop_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-ToolShop_Test_Suite -->
+                      <a href="#" panel-name="suite-ToolShop_Test_Suite" class="show-methods passed suite-ToolShop_Test_Suite"> (show)</a> <!-- show-methods passed suite-ToolShop_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-ToolShop_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.ContactTest" class="method navigator-link" hash-for-method="contactpageopen">contactpageopen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.ProductTest" class="method navigator-link" hash-for-method="testAddToCart">testAddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.ProductTest" class="method navigator-link" hash-for-method="testAddToFavoritesWithoutLogin">testAddToFavoritesWithoutLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.EndToEndTest" class="method navigator-link" hash-for-method="testCheckoutWithMissingRequiredField">testCheckoutWithMissingRequiredField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.CartandPaymentTest" class="method navigator-link" hash-for-method="testCheckoutWithZeroQuantity">testCheckoutWithZeroQuantity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.SignInTest" class="method navigator-link" hash-for-method="testEmptyFieldsValidation">testEmptyFieldsValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.EndToEndTest" class="method navigator-link" hash-for-method="testEndToEndHappyFlow">testEndToEndHappyFlow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.HomeTest" class="method navigator-link" hash-for-method="testFooterLinks">testFooterLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.HomeTest" class="method navigator-link" hash-for-method="testGlobalHeaderControls">testGlobalHeaderControls</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.HomeTest" class="method navigator-link" hash-for-method="testGridAndPagination">testGridAndPagination</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.CartandPaymentTest" class="method navigator-link" hash-for-method="testGuestCheckoutWithBankTransfer">testGuestCheckoutWithBankTransfer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.ContactTest" class="method navigator-link" hash-for-method="testInvalidEmailValidation">testInvalidEmailValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.SignInTest" class="method navigator-link" hash-for-method="testInvalidPasswordLogin">testInvalidPasswordLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.EndToEndTest" class="method navigator-link" hash-for-method="testLoginWithInvalidCredentials">testLoginWithInvalidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.ContactTest" class="method navigator-link" hash-for-method="testMinimumCharacterAlertOnMessageField">testMinimumCharacterAlertOnMessageField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.SignInTest" class="method navigator-link" hash-for-method="testNavigateToForgotPasswordPage">testNavigateToForgotPasswordPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.SignInTest" class="method navigator-link" hash-for-method="testNavigateToRegisterPage">testNavigateToRegisterPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.HomeTest" class="method navigator-link" hash-for-method="testPriceSliderHandlesCannotCross">testPriceSliderHandlesCannotCross</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.ProductTest" class="method navigator-link" hash-for-method="testProductInformation">testProductInformation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.ProductTest" class="method navigator-link" hash-for-method="testQuantityAdjustment">testQuantityAdjustment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.HomeTest" class="method navigator-link" hash-for-method="testSearchAndFiltering">testSearchAndFiltering</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.HomeTest" class="method navigator-link" hash-for-method="testSearchWithNonExistentKeyword">testSearchWithNonExistentKeyword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.HomeTest" class="method navigator-link" hash-for-method="testSearchWithSpecialCharacters">testSearchWithSpecialCharacters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.CartandPaymentTest" class="method navigator-link" hash-for-method="testSignedInCheckoutWithCreditCard">testSignedInCheckoutWithCreditCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.HomeTest" class="method navigator-link" hash-for-method="testSortingControls">testSortingControls</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.ContactTest" class="method navigator-link" hash-for-method="testSuccessfulFormSubmission">testSuccessfulFormSubmission</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.SignInTest" class="method navigator-link" hash-for-method="testSuccessfulLogin">testSuccessfulLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.SignInTest" class="method navigator-link" hash-for-method="testSuccessfulLogout">testSuccessfulLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.ProductTest" class="method navigator-link" hash-for-method="testZeroQuantityNegative">testZeroQuantityNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.ProductTest" class="method navigator-link" hash-for-method="verifyProductDetailsDisplayed">verifyProductDetailsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.RegistrationTest" class="method navigator-link" hash-for-method="verifyRegistration(Ram, R, 2000-12-01, India, 678523, 99, Ottappalam, Shoranur, Kerala, 8765903456, ramr@gmail.com, xyz...)">verifyRegistration(Ram, R, 2000-12-01, India, 678523, 99, Ottappalam, Shoranur, Kerala, 8765903456, ramr@gmail.com, xyz...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.RegistrationTest" class="method navigator-link" hash-for-method="verifyRegistration(, Roy, 1991-11-28, India, 560010, 87, Yelahanka, Bengaluru, Karnataka, 6890543870, grinnroy@gmail.co...)">verifyRegistration(, Roy, 1991-11-28, India, 560010, 87, Yelahanka, Bengaluru, Karnataka, 6890543870, grinnroy@gmail.co...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.RegistrationTest" class="method navigator-link" hash-for-method="verifyRegistration(Vinay, Vikas, 1998-08-12, India, 679000, 34, Mananthavady, Waynad, Kerala, 9780654367, Notanemail, A...)">verifyRegistration(Vinay, Vikas, 1998-08-12, India, 679000, 34, Mananthavady, Waynad, Kerala, 9780654367, Notanemail, A...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ToolShop_Test_Suite" title="testPackage.RegistrationTest" class="method navigator-link" hash-for-method="verifyRegistration(Soni, Sam, 1990-10-19, India, 560090, 80, MG Road, Bengaluru, Karnataka, 7896543890, sonisam@gmail.c...)">verifyRegistration(Soni, Sam, 1990-10-19, India, 560090, 80, MG Road, Bengaluru, Karnataka, 7896543890, sonisam@gmail.c...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ToolShop_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ToolShop_Test_Suite" class="panel ToolShop_Test_Suite">
+          <div class="suite-ToolShop_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testPackage.SignInTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmptyFieldsValidation">
+                  </a> <!-- testEmptyFieldsValidation -->
+                  <span class="method-name">testEmptyFieldsValidation</span>
+                  <em>
+(Verify inline error validation on empty input fields)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidPasswordLogin">
+                  </a> <!-- testInvalidPasswordLogin -->
+                  <span class="method-name">testInvalidPasswordLogin</span>
+                  <em>
+(Verify error message on invalid password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigateToForgotPasswordPage">
+                  </a> <!-- testNavigateToForgotPasswordPage -->
+                  <span class="method-name">testNavigateToForgotPasswordPage</span>
+                  <em>
+(Verify navigation link to Forgot Password Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigateToRegisterPage">
+                  </a> <!-- testNavigateToRegisterPage -->
+                  <span class="method-name">testNavigateToRegisterPage</span>
+                  <em>
+(Verify navigation link to Registration Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccessfulLogin">
+                  </a> <!-- testSuccessfulLogin -->
+                  <span class="method-name">testSuccessfulLogin</span>
+                  <em>
+(Verify successful login with valid customer credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccessfulLogout">
+                  </a> <!-- testSuccessfulLogout -->
+                  <span class="method-name">testSuccessfulLogout</span>
+                  <em>
+(Verify successful logout)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ToolShop_Test_Suite-class-passed -->
+          <div class="suite-ToolShop_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testPackage.RegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistration(Ram, R, 2000-12-01, India, 678523, 99, Ottappalam, Shoranur, Kerala, 8765903456, ramr@gmail.com, xyz...)">
+                  </a> <!-- verifyRegistration(Ram, R, 2000-12-01, India, 678523, 99, Ottappalam, Shoranur, Kerala, 8765903456, ramr@gmail.com, xyz...) -->
+                  <span class="method-name">verifyRegistration</span>
+                  <span class="parameters">(Ram,R,2000-12-01,India,678523,99,Ottappalam,Shoranur,Kerala,8765903456,ramr@gmail.com,xyz123,3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistration(, Roy, 1991-11-28, India, 560010, 87, Yelahanka, Bengaluru, Karnataka, 6890543870, grinnroy@gmail.co...)">
+                  </a> <!-- verifyRegistration(, Roy, 1991-11-28, India, 560010, 87, Yelahanka, Bengaluru, Karnataka, 6890543870, grinnroy@gmail.co...) -->
+                  <span class="method-name">verifyRegistration</span>
+                  <span class="parameters">(,Roy,1991-11-28,India,560010,87,Yelahanka,Bengaluru,Karnataka,6890543870,grinnroy@gmail.com,Abc12390**@780,2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistration(Vinay, Vikas, 1998-08-12, India, 679000, 34, Mananthavady, Waynad, Kerala, 9780654367, Notanemail, A...)">
+                  </a> <!-- verifyRegistration(Vinay, Vikas, 1998-08-12, India, 679000, 34, Mananthavady, Waynad, Kerala, 9780654367, Notanemail, A...) -->
+                  <span class="method-name">verifyRegistration</span>
+                  <span class="parameters">(Vinay,Vikas,1998-08-12,India,679000,34,Mananthavady,Waynad,Kerala,9780654367,Notanemail,Abc123*##9000,4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistration(Soni, Sam, 1990-10-19, India, 560090, 80, MG Road, Bengaluru, Karnataka, 7896543890, sonisam@gmail.c...)">
+                  </a> <!-- verifyRegistration(Soni, Sam, 1990-10-19, India, 560090, 80, MG Road, Bengaluru, Karnataka, 7896543890, sonisam@gmail.c...) -->
+                  <span class="method-name">verifyRegistration</span>
+                  <span class="parameters">(Soni,Sam,1990-10-19,India,560090,80,MG Road,Bengaluru,Karnataka,7896543890,sonisam@gmail.com,Sam12300##@90,1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ToolShop_Test_Suite-class-passed -->
+          <div class="suite-ToolShop_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testPackage.EndToEndTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckoutWithMissingRequiredField">
+                  </a> <!-- testCheckoutWithMissingRequiredField -->
+                  <span class="method-name">testCheckoutWithMissingRequiredField</span>
+                  <em>
+(REQUIRED BILLING FIELD MISSING)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEndToEndHappyFlow">
+                  </a> <!-- testEndToEndHappyFlow -->
+                  <span class="method-name">testEndToEndHappyFlow</span>
+                  <em>
+(Happy flow)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithInvalidCredentials">
+                  </a> <!-- testLoginWithInvalidCredentials -->
+                  <span class="method-name">testLoginWithInvalidCredentials</span>
+                  <em>
+(Negative: Invalid login)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ToolShop_Test_Suite-class-passed -->
+          <div class="suite-ToolShop_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testPackage.HomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFooterLinks">
+                  </a> <!-- testFooterLinks -->
+                  <span class="method-name">testFooterLinks</span>
+                  <em>
+(Verify Footer Informational Links Presence)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGlobalHeaderControls">
+                  </a> <!-- testGlobalHeaderControls -->
+                  <span class="method-name">testGlobalHeaderControls</span>
+                  <em>
+(Verify Header Routing, & Language Selection)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGridAndPagination">
+                  </a> <!-- testGridAndPagination -->
+                  <span class="method-name">testGridAndPagination</span>
+                  <em>
+(Verify Product Grid & Pagination)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPriceSliderHandlesCannotCross">
+                  </a> <!-- testPriceSliderHandlesCannotCross -->
+                  <span class="method-name">testPriceSliderHandlesCannotCross</span>
+                  <em>
+(Negative: Price slider handles must not cross each other)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchAndFiltering">
+                  </a> <!-- testSearchAndFiltering -->
+                  <span class="method-name">testSearchAndFiltering</span>
+                  <em>
+(Verify Sidebar Search and Filter Systems)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchWithNonExistentKeyword">
+                  </a> <!-- testSearchWithNonExistentKeyword -->
+                  <span class="method-name">testSearchWithNonExistentKeyword</span>
+                  <em>
+(Negative: Search with a keyword that matches no product)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchWithSpecialCharacters">
+                  </a> <!-- testSearchWithSpecialCharacters -->
+                  <span class="method-name">testSearchWithSpecialCharacters</span>
+                  <em>
+(Negative: Search with special/script characters is handled safely)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortingControls">
+                  </a> <!-- testSortingControls -->
+                  <span class="method-name">testSortingControls</span>
+                  <em>
+(Verify Sorting Controls Options)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ToolShop_Test_Suite-class-passed -->
+          <div class="suite-ToolShop_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testPackage.ContactTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactpageopen">
+                  </a> <!-- contactpageopen -->
+                  <span class="method-name">contactpageopen</span>
+                  <em>
+(Open contact page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidEmailValidation">
+                  </a> <!-- testInvalidEmailValidation -->
+                  <span class="method-name">testInvalidEmailValidation</span>
+                  <em>
+(Verify email validation message for invalid input format)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMinimumCharacterAlertOnMessageField">
+                  </a> <!-- testMinimumCharacterAlertOnMessageField -->
+                  <span class="method-name">testMinimumCharacterAlertOnMessageField</span>
+                  <em>
+(Verify error alert message when entering less than the minimum required characters in message field)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccessfulFormSubmission">
+                  </a> <!-- testSuccessfulFormSubmission -->
+                  <span class="method-name">testSuccessfulFormSubmission</span>
+                  <em>
+(Submit contact form with all valid fields)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ToolShop_Test_Suite-class-passed -->
+          <div class="suite-ToolShop_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testPackage.ProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddToCart">
+                  </a> <!-- testAddToCart -->
+                  <span class="method-name">testAddToCart</span>
+                  <em>
+(Verify adding product to cart updates cart badge count)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddToFavoritesWithoutLogin">
+                  </a> <!-- testAddToFavoritesWithoutLogin -->
+                  <span class="method-name">testAddToFavoritesWithoutLogin</span>
+                  <em>
+(Negative: Verify adding product to favourites without signing in displays a warning)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProductInformation">
+                  </a> <!-- testProductInformation -->
+                  <span class="method-name">testProductInformation</span>
+                  <em>
+(Verify product information details (Title, Price, Description))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testQuantityAdjustment">
+                  </a> <!-- testQuantityAdjustment -->
+                  <span class="method-name">testQuantityAdjustment</span>
+                  <em>
+(Verify incrementing and decrementing item quantity)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testZeroQuantityNegative">
+                  </a> <!-- testZeroQuantityNegative -->
+                  <span class="method-name">testZeroQuantityNegative</span>
+                  <em>
+(Verify that setting product quantity to zero is rejected)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductDetailsDisplayed">
+                  </a> <!-- verifyProductDetailsDisplayed -->
+                  <span class="method-name">verifyProductDetailsDisplayed</span>
+                  <em>
+(Negative: Verify Category, Brand and Carbon rating is displayed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ToolShop_Test_Suite-class-passed -->
+          <div class="suite-ToolShop_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testPackage.CartandPaymentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckoutWithZeroQuantity">
+                  </a> <!-- testCheckoutWithZeroQuantity -->
+                  <span class="method-name">testCheckoutWithZeroQuantity</span>
+                  <em>
+(Negative: Verify checkout is blocked when cart quantity is zero)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGuestCheckoutWithBankTransfer">
+                  </a> <!-- testGuestCheckoutWithBankTransfer -->
+                  <span class="method-name">testGuestCheckoutWithBankTransfer</span>
+                  <em>
+(Guest user checks out and pays by bank transfer)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignedInCheckoutWithCreditCard">
+                  </a> <!-- testSignedInCheckoutWithCreditCard -->
+                  <span class="method-name">testSignedInCheckoutWithCreditCard</span>
+                  <em>
+(Signed-in user checks out and pays by credit card)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ToolShop_Test_Suite-class-passed -->
+        </div> <!-- panel ToolShop_Test_Suite -->
+        <div panel-name="test-xml-ToolShop_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\nisha\eclipse-workspace\ToolShopDemo\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;ToolShop Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ToolShop Functional Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testPackage.HomeTest&quot;/&gt;
+      &lt;class name=&quot;testPackage.RegistrationTest&quot;/&gt;
+      &lt;class name=&quot;testPackage.SignInTest&quot;/&gt;
+      &lt;class name=&quot;testPackage.ProductTest&quot;/&gt;
+      &lt;class name=&quot;testPackage.CartandPaymentTest&quot;/&gt;
+      &lt;class name=&quot;testPackage.ContactTest&quot;/&gt;
+      &lt;class name=&quot;testPackage.EndToEndTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ToolShop Functional Tests --&gt;
+&lt;/suite&gt; &lt;!-- ToolShop Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ToolShop_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ToolShop Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ToolShop Functional Tests (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ToolShop_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ToolShop Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ToolShop_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ToolShop Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ToolShop_Test_Suite');
+function tableData_ToolShop_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(34);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testGuestCheckoutWithBankTransfer')
+data.setCell(0, 2, 'testPackage.CartandPaymentTest')
+data.setCell(0, 3, 31084);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testSignedInCheckoutWithCreditCard')
+data.setCell(1, 2, 'testPackage.CartandPaymentTest')
+data.setCell(1, 3, 13175);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testEndToEndHappyFlow')
+data.setCell(2, 2, 'testPackage.EndToEndTest')
+data.setCell(2, 3, 12828);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testSearchWithNonExistentKeyword')
+data.setCell(3, 2, 'testPackage.HomeTest')
+data.setCell(3, 3, 12757);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testLoginWithInvalidCredentials')
+data.setCell(4, 2, 'testPackage.EndToEndTest')
+data.setCell(4, 3, 12589);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testSearchWithSpecialCharacters')
+data.setCell(5, 2, 'testPackage.HomeTest')
+data.setCell(5, 3, 12036);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testCheckoutWithMissingRequiredField')
+data.setCell(6, 2, 'testPackage.EndToEndTest')
+data.setCell(6, 3, 7141);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testCheckoutWithZeroQuantity')
+data.setCell(7, 2, 'testPackage.CartandPaymentTest')
+data.setCell(7, 3, 6860);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyRegistration')
+data.setCell(8, 2, 'testPackage.RegistrationTest')
+data.setCell(8, 3, 6188);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testPriceSliderHandlesCannotCross')
+data.setCell(9, 2, 'testPackage.HomeTest')
+data.setCell(9, 3, 4402);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyRegistration')
+data.setCell(10, 2, 'testPackage.RegistrationTest')
+data.setCell(10, 3, 4227);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyRegistration')
+data.setCell(11, 2, 'testPackage.RegistrationTest')
+data.setCell(11, 3, 4045);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testSuccessfulLogout')
+data.setCell(12, 2, 'testPackage.SignInTest')
+data.setCell(12, 3, 4021);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyRegistration')
+data.setCell(13, 2, 'testPackage.RegistrationTest')
+data.setCell(13, 3, 3882);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testSearchAndFiltering')
+data.setCell(14, 2, 'testPackage.HomeTest')
+data.setCell(14, 3, 3586);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testMinimumCharacterAlertOnMessageField')
+data.setCell(15, 2, 'testPackage.ContactTest')
+data.setCell(15, 3, 3552);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testInvalidEmailValidation')
+data.setCell(16, 2, 'testPackage.ContactTest')
+data.setCell(16, 3, 2873);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testSuccessfulFormSubmission')
+data.setCell(17, 2, 'testPackage.ContactTest')
+data.setCell(17, 3, 2610);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testSuccessfulLogin')
+data.setCell(18, 2, 'testPackage.SignInTest')
+data.setCell(18, 3, 2435);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testSortingControls')
+data.setCell(19, 2, 'testPackage.HomeTest')
+data.setCell(19, 3, 1882);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testInvalidPasswordLogin')
+data.setCell(20, 2, 'testPackage.SignInTest')
+data.setCell(20, 3, 1708);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testAddToCart')
+data.setCell(21, 2, 'testPackage.ProductTest')
+data.setCell(21, 3, 1639);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testGlobalHeaderControls')
+data.setCell(22, 2, 'testPackage.HomeTest')
+data.setCell(22, 3, 1550);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testGridAndPagination')
+data.setCell(23, 2, 'testPackage.HomeTest')
+data.setCell(23, 3, 1505);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testAddToFavoritesWithoutLogin')
+data.setCell(24, 2, 'testPackage.ProductTest')
+data.setCell(24, 3, 1468);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testNavigateToRegisterPage')
+data.setCell(25, 2, 'testPackage.SignInTest')
+data.setCell(25, 3, 982);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testEmptyFieldsValidation')
+data.setCell(26, 2, 'testPackage.SignInTest')
+data.setCell(26, 3, 791);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testNavigateToForgotPasswordPage')
+data.setCell(27, 2, 'testPackage.SignInTest')
+data.setCell(27, 3, 597);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'contactpageopen')
+data.setCell(28, 2, 'testPackage.ContactTest')
+data.setCell(28, 3, 387);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testQuantityAdjustment')
+data.setCell(29, 2, 'testPackage.ProductTest')
+data.setCell(29, 3, 384);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testZeroQuantityNegative')
+data.setCell(30, 2, 'testPackage.ProductTest')
+data.setCell(30, 3, 284);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testProductInformation')
+data.setCell(31, 2, 'testPackage.ProductTest')
+data.setCell(31, 3, 140);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testFooterLinks')
+data.setCell(32, 2, 'testPackage.HomeTest')
+data.setCell(32, 3, 132);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'verifyProductDetailsDisplayed')
+data.setCell(33, 2, 'testPackage.ProductTest')
+data.setCell(33, 3, 105);
+window.suiteTableData['ToolShop_Test_Suite']= { tableData: data, tableDiv: 'times-div-ToolShop_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-ToolShop_Test_Suite">
+              </div> <!-- times-div-ToolShop_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ToolShop_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ToolShop Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ToolShop_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ToolShop_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.HomeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializepage</span>
+                <span class="method-start">59068 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGlobalHeaderControls</span>
+                <span class="method-start">59102 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60658 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">61995 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializepage</span>
+                <span class="method-start">65959 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchAndFiltering</span>
+                <span class="method-start">65967 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">69557 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">70602 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSortingControls</span>
+                <span class="method-start">73756 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initializepage</span>
+                <span class="method-start">73756 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">75640 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">76334 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializepage</span>
+                <span class="method-start">79800 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGridAndPagination</span>
+                <span class="method-start">79804 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">81314 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">82421 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializepage</span>
+                <span class="method-start">85798 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFooterLinks</span>
+                <span class="method-start">85807 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">85957 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">87601 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializepage</span>
+                <span class="method-start">92322 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchWithNonExistentKeyword</span>
+                <span class="method-start">92353 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">105138 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">106524 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializepage</span>
+                <span class="method-start">110007 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchWithSpecialCharacters</span>
+                <span class="method-start">110009 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">122049 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">122945 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializepage</span>
+                <span class="method-start">127301 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPriceSliderHandlesCannotCross</span>
+                <span class="method-start">127302 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">131706 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.RegistrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">134394 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePage</span>
+                <span class="method-start">137703 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistration(Soni, Sam, 1990-10-19, India, 560090, 80, MG Road, Bengaluru, Karnataka, 7896543890, sonisam@gmail.c...)</span>
+                <span class="method-start">137717 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">143912 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">144835 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistration(, Roy, 1991-11-28, India, 560010, 87, Yelahanka, Bengaluru, Karnataka, 6890543870, grinnroy@gmail.co...)</span>
+                <span class="method-start">148341 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePage</span>
+                <span class="method-start">148341 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">152227 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">153270 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePage</span>
+                <span class="method-start">156696 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistration(Ram, R, 2000-12-01, India, 678523, 99, Ottappalam, Shoranur, Kerala, 8765903456, ramr@gmail.com, xyz...)</span>
+                <span class="method-start">156700 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">160754 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">161836 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePage</span>
+                <span class="method-start">165663 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistration(Vinay, Vikas, 1998-08-12, India, 679000, 34, Mananthavady, Waynad, Kerala, 9780654367, Notanemail, A...)</span>
+                <span class="method-start">165663 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">169896 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.SignInTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">171199 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePage</span>
+                <span class="method-start">174194 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSuccessfulLogin</span>
+                <span class="method-start">174788 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">177225 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">178031 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePage</span>
+                <span class="method-start">182200 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInvalidPasswordLogin</span>
+                <span class="method-start">183067 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">184777 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">185694 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePage</span>
+                <span class="method-start">189115 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testEmptyFieldsValidation</span>
+                <span class="method-start">189566 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">190359 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">191139 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePage</span>
+                <span class="method-start">195547 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testNavigateToRegisterPage</span>
+                <span class="method-start">196194 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">197176 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">197914 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePage</span>
+                <span class="method-start">201283 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testNavigateToForgotPasswordPage</span>
+                <span class="method-start">201851 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">202449 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">203282 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePage</span>
+                <span class="method-start">207682 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSuccessfulLogout</span>
+                <span class="method-start">208470 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">212491 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.ProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">213180 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">selectProduct</span>
+                <span class="method-start">216498 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testProductInformation</span>
+                <span class="method-start">218842 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">218982 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">220005 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">selectProduct</span>
+                <span class="method-start">223457 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testQuantityAdjustment</span>
+                <span class="method-start">224974 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">225358 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">226336 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">selectProduct</span>
+                <span class="method-start">229655 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddToCart</span>
+                <span class="method-start">231227 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">232867 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">233458 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">selectProduct</span>
+                <span class="method-start">236849 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductDetailsDisplayed</span>
+                <span class="method-start">238671 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">238779 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">242781 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">selectProduct</span>
+                <span class="method-start">247648 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testZeroQuantityNegative</span>
+                <span class="method-start">250184 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">250470 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">251295 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">selectProduct</span>
+                <span class="method-start">257079 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddToFavoritesWithoutLogin</span>
+                <span class="method-start">259251 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">260723 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.CartandPaymentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">261512 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePages</span>
+                <span class="method-start">264868 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSignedInCheckoutWithCreditCard</span>
+                <span class="method-start">264882 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">278063 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">278791 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePages</span>
+                <span class="method-start">282531 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGuestCheckoutWithBankTransfer</span>
+                <span class="method-start">282531 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">313616 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">314997 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePages</span>
+                <span class="method-start">320175 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckoutWithZeroQuantity</span>
+                <span class="method-start">320177 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">327038 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.ContactTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">328832 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePage</span>
+                <span class="method-start">332684 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">contactpageopen</span>
+                <span class="method-start">333644 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">334033 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">336275 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePage</span>
+                <span class="method-start">339872 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSuccessfulFormSubmission</span>
+                <span class="method-start">340897 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">343509 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">344550 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePage</span>
+                <span class="method-start">347830 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInvalidEmailValidation</span>
+                <span class="method-start">349240 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">352115 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">354384 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePage</span>
+                <span class="method-start">358559 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMinimumCharacterAlertOnMessageField</span>
+                <span class="method-start">359517 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">363069 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.EndToEndTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">364480 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpEndToEnd</span>
+                <span class="method-start">368774 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testEndToEndHappyFlow</span>
+                <span class="method-start">368774 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">381603 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">382538 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpEndToEnd</span>
+                <span class="method-start">386955 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithInvalidCredentials</span>
+                <span class="method-start">386956 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">399546 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">401353 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpEndToEnd</span>
+                <span class="method-start">405477 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckoutWithMissingRequiredField</span>
+                <span class="method-start">405484 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">412627 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
