@@ -106,39 +106,55 @@ public class HomePage
         wait.until(ExpectedConditions.visibilityOfElementLocated(sortdropdown));
     }
     
-    public int getProductCount() 
+    public int getProductCount()
     {
-    	 for (int attempt = 0; attempt < 3; attempt++)
-    	    {
-    	        try
-    	        {
-    	            return wait.until(driver ->
-    	            {
-    	                List<WebElement> images =
-    	                        driver.findElements(productgrid);
+        for (int attempt = 0; attempt < 3; attempt++)
+        {
+            try
+            {
+                return wait.until(driver ->
+                {
+                    List<WebElement> products =
+                            driver.findElements(productgrid);
 
-    	                int count = 0;
+                    int count = 0;
 
-    	                for (WebElement image : images)
-    	                {
-    	                    if (image.isDisplayed())
-    	                    {
-    	                        count++;
-    	                    }
-    	                }
+                    for (WebElement product : products)
+                    {
+                        try
+                        {
+                            if (product.isDisplayed())
+                            {
+                                count++;
+                            }
+                        }
+                        catch (org.openqa.selenium.StaleElementReferenceException e)
+                        {
+                            return null;
+                        }
+                    }
 
-    	                return count;
-    	            });
-    	        }
-    	        catch (org.openqa.selenium.StaleElementReferenceException e)
-    	        {
-    	           
-    	        }
-    	    }
+                    // Wait until at least one product is displayed
+                    return count > 0 ? count : null;
+                });
+            }
+            catch (org.openqa.selenium.StaleElementReferenceException e)
+            {
+                // Retry if product elements become stale
+            }
+            catch (org.openqa.selenium.TimeoutException e)
+            {
+                if (attempt == 2)
+                {
+                    throw new org.openqa.selenium.TimeoutException(
+                            "No visible product images found after retries", e);
+                }
+            }
+        }
 
-    	    throw new org.openqa.selenium.TimeoutException(
-    	            "Product images remained stale after retries");
-    	}
+        throw new org.openqa.selenium.TimeoutException(
+                "Product images remained stale after retries");
+    }
     
     public boolean isProductDisplayed(String titleKeyword) 
     {
@@ -228,6 +244,17 @@ public class HomePage
         WebElement max = wait.until(ExpectedConditions.visibilityOfElementLocated(maxhandler));
         int offset = max.getLocation().getX() - min.getLocation().getX() + 15;
         new Actions(driver).dragAndDropBy(min, offset, 0).perform();
+    }
+    
+    public boolean isApplicationLoaded() 
+    {
+    	String Base_URL = "https://practicesoftwaretesting.com/";
+        try {
+            return driver.getCurrentUrl().startsWith(Base_URL)
+                    && !driver.getTitle().trim().isEmpty();
+        } catch (Exception e) {
+            return false;
+        }
     }
    
 }

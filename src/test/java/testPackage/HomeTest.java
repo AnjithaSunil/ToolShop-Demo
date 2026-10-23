@@ -1,5 +1,8 @@
 package testPackage;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 
 import org.testng.annotations.BeforeMethod;
@@ -17,6 +20,47 @@ public class HomeTest extends BaseClass
     public void initializepage()
     {
     	homePage=new HomePage(driver);
+    }
+    
+    @Test(priority = 0, description = "Verify application launch in Chrome and Firefox")
+    public void testApplicationLaunchAcrossBrowsers() 
+    {
+
+        WebDriver browser = null;
+
+        try {
+            // Verify Chrome
+            browser = new ChromeDriver();
+            browser.manage().window().maximize();
+            browser.get(Base_URL);
+
+            HomePage chromeHome = new HomePage(browser);
+
+            Assert.assertTrue(chromeHome.isApplicationLoaded(),
+                    "Application failed to load in Chrome");
+
+            System.out.println("Application loaded successfully in Chrome");
+
+            browser.quit();
+            browser = null;
+
+            // Verify Firefox
+            browser = new FirefoxDriver();
+            browser.manage().window().maximize();
+            browser.get(Base_URL);
+
+            HomePage firefoxHome = new HomePage(browser);
+
+            Assert.assertTrue(firefoxHome.isApplicationLoaded(),
+                    "Application failed to load in Firefox");
+
+            System.out.println("Application loaded successfully in Firefox");
+
+        } finally {
+            if (browser != null) {
+                browser.quit();
+            }
+        }
     }
 
     @Test(priority = 1, description = "Verify Header Routing, & Language Selection")
@@ -55,11 +99,24 @@ public class HomeTest extends BaseClass
     @Test(priority = 4, description = "Verify Product Grid & Pagination")
     public void testGridAndPagination() 
     {
-        int initialCount = homePage.getProductCount();
-        Assert.assertTrue(initialCount > 0, "Initial grid should render product cards");
+    	driver.get(Base_URL);
 
-        // Pagination Test
+        int initialCount = homePage.getProductCount();
+
+        Assert.assertTrue(initialCount > 0,
+                "Initial grid should render product cards. Found: " + initialCount);
+
+        System.out.println("Initial product count: " + initialCount);
+
+        // Navigate to the next page
         homePage.navigateToNextPage();
+
+        int nextPageCount = homePage.getProductCount();
+
+        Assert.assertTrue(nextPageCount > 0,
+                "Product grid should display products after pagination");
+
+        System.out.println("Products after pagination: " + nextPageCount);
     }
 
     @Test(priority = 5, description = "Verify Footer Informational Links Presence")

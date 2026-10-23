@@ -3,20 +3,72 @@
 <suite name="Failed suite [ToolShop Test Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="ToolShop Functional Tests(failed)">
     <classes>
+      <class name="testPackage.SignInTest">
+        <methods>
+          <include name="testSuccessfulLogout"/>
+          <include name="testNavigateToRegisterPage"/>
+          <include name="testSuccessfulLogin"/>
+          <include name="testNavigateToForgotPasswordPage"/>
+          <include name="tearDown"/>
+          <include name="initializePage"/>
+          <include name="testInvalidPasswordLogin"/>
+          <include name="setup"/>
+          <include name="testEmptyFieldsValidation"/>
+        </methods>
+      </class> <!-- testPackage.SignInTest -->
+      <class name="testPackage.RegistrationTest">
+        <methods>
+          <include name="verifyRegistration"/>
+          <include name="tearDown"/>
+          <include name="initializePage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testPackage.RegistrationTest -->
       <class name="testPackage.EndToEndTest">
         <methods>
           <include name="tearDown"/>
+          <include name="testLoginWithInvalidCredentials"/>
           <include name="setUpEndToEnd"/>
           <include name="testEndToEndHappyFlow"/>
-          <include name="testCheckoutWithMissingRequiredField"/>
           <include name="setup"/>
+          <include name="testCheckoutWithMissingRequiredField"/>
         </methods>
       </class> <!-- testPackage.EndToEndTest -->
+      <class name="testPackage.HomeTest">
+        <methods>
+          <include name="testSearchAndFiltering"/>
+          <include name="testApplicationLaunchAcrossBrowsers"/>
+          <include name="testGridAndPagination"/>
+          <include name="testPriceSliderHandlesCannotCross"/>
+          <include name="initializepage"/>
+          <include name="testFooterLinks"/>
+          <include name="tearDown"/>
+          <include name="testSortingControls"/>
+          <include name="setup"/>
+          <include name="testSearchWithSpecialCharacters"/>
+          <include name="testGlobalHeaderControls"/>
+          <include name="testSearchWithNonExistentKeyword"/>
+        </methods>
+      </class> <!-- testPackage.HomeTest -->
+      <class name="testPackage.ContactTest">
+        <methods>
+          <include name="testSuccessfulFormSubmission"/>
+          <include name="tearDown"/>
+          <include name="testMinimumCharacterAlertOnMessageField"/>
+          <include name="contactpageopen"/>
+          <include name="initializePage"/>
+          <include name="setup"/>
+          <include name="testInvalidEmailValidation"/>
+        </methods>
+      </class> <!-- testPackage.ContactTest -->
       <class name="testPackage.ProductTest">
         <methods>
           <include name="testQuantityAdjustment"/>
+          <include name="testProductInformation"/>
           <include name="tearDown"/>
+          <include name="verifyProductDetailsDisplayed"/>
           <include name="testZeroQuantityNegative"/>
+          <include name="testAddToFavoritesWithoutLogin"/>
           <include name="selectProduct"/>
           <include name="setup"/>
           <include name="testAddToCart"/>
@@ -24,6 +76,7 @@
       </class> <!-- testPackage.ProductTest -->
       <class name="testPackage.CartandPaymentTest">
         <methods>
+          <include name="testCheckoutWithZeroQuantity"/>
           <include name="testSignedInCheckoutWithCreditCard"/>
           <include name="tearDown"/>
           <include name="initializePages"/>
