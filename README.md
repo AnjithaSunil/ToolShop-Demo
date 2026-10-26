@@ -75,7 +75,7 @@ POM separates webpage interactions from test logic. Each page class represents a
 
 **Included under Test Documents Folder:**
 
-- Feature List 
+- Feature List  [Feature List](./Test%20Documents/ToolShop%20Demo%20Features%20List_Anjitha%20G%20Sunil.docx)
 
 - Test Plan
 
