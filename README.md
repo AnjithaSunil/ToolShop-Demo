@@ -75,12 +75,12 @@ POM separates webpage interactions from test logic. Each page class represents a
 
 **Included under Test Documents Folder:**
 
-- Feature List  [Feature List](./Test%20Documents/ToolShop%20Demo%20Features%20List_Anjitha%20G%20Sunil.docx)
+- Feature List  [Feature List](https://docs.google.com/document/d/18N3zuG2y0dcooPgTG6btDZ_L_A6RrxoVGWa3mHazM6A/edit?usp=drive_link)
 
-- Test Plan  [Test Plan](./Test%20Documents/Tool%20Shop%20Demo_Test%20Plan_Anjitha%20G%20Sunil.docx)
+- Test Plan  [Test Plan](https://docs.google.com/document/d/1iLIpX9V8KFyBV8jywCUV5ftb1oNYl4LfBwJJOeWfJ68/edit?usp=drive_link)
 
-- RTM, TE Summary and Test Cases  [RTM, TE Summary & Test Cases](./Test%20Documents/RTM,%20TE%20Summary%20%26%20Test%20Case_ToolShop%20Demo_Anjitha%20G%20Sunil.xlsx)
+- RTM, TE Summary and Test Cases  [RTM, TE Summary & Test cases](https://docs.google.com/spreadsheets/d/1Q5f3pedZ6gns21JJan20oH4Km3tDv4lvYH8aZN12Z-Y/edit?usp=drive_link)
 
-- Defect Summary and Bug Report [Defect Report & Bug Report](./Test%20Documents/Tool%20Shop%20Demo_Bug%20Report_Anjitha%20G%20Sunil.xlsx)
+- Defect Summary and Bug Report [Defect Summary & Bug Report](https://docs.google.com/spreadsheets/d/11Xh-e0DQ_qxeXFiugAeGcUx6n-VoCZ7uqdNbt8py9q4/edit?usp=drive_link)
 
-- Test Summary [Test Summary Report](./Test%20Documents/Tool%20Shop%20Demo_Test%20Summary_Anjitha%20G%20Sunil.docx)
+- Test Summary [Test Summary Report](https://docs.google.com/document/d/1ZClkJvioDU-oodb6N-5A940Xh9Ox7lo-7hRMXOy_n_c/edit?usp=drive_link)
