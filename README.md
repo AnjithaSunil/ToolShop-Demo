@@ -77,8 +77,10 @@ POM separates webpage interactions from test logic. Each page class represents a
 
 - Feature List  [Feature List](./Test%20Documents/ToolShop%20Demo%20Features%20List_Anjitha%20G%20Sunil.docx)
 
-- Test Plan
+- Test Plan  [Test Plan](./Test%20Documents/Tool%20Shop%20Demo_Test%20Plan_Anjitha%20G%20Sunil.docx)
 
-- RTM, TE Summary and Test Cases 
+- RTM, TE Summary and Test Cases  [RTM, TE Summary & Test Cases](./Test%20Documents/RTM,%20TE%20Summary%20%26%20Test%20Case_ToolShop%20Demo_Anjitha%20G%20Sunil.xlsx)
 
-- Defect Summary and Bug ReportTest Summary 
+- Defect Summary and Bug Report [Defect Summary & Bug Report](./Test%20Documents/Tool%20Shop%20Demo_Bug%20Report_Anjitha%20G%20Sunil.xlsx)
+
+- Test Summary [Test Summary Report](./Test%20Documents/Tool%20Shop%20Demo_Test%20Summary_Anjitha%20G%20Sunil.docx)
